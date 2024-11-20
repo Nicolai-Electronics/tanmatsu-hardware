@@ -5,13 +5,13 @@
 	(uuid "d81b2fe9-c5b5-4452-8185-477bc287b55d")
 	(paper "A4")
 	(title_block
-		(title "WHY2025 badge")
-		(date "2024-11-01")
-		(rev "Prototype 3")
-		(company "Badge.Team")
-		(comment 1 "Copyright 2024 Nicolai Electronics")
-		(comment 2 "License: CERN-OHL-P")
-		(comment 3 "Untested prototype design")
+		(title "Tanmatsu")
+		(date "2024-11-20")
+		(rev "Prototype 4")
+		(company "Nicolai Electronics")
+		(comment 1 "Copyright 2024 Paul Honig")
+		(comment 2 "Copyright 2024 Nicolai Electronics")
+		(comment 3 "License: CERN-OHL-P")
 		(comment 4 "(Work in progress!)")
 	)
 	(lib_symbols
@@ -13203,7 +13203,7 @@
 			(uuid "42214c16-b208-438e-bae7-f3bb520c74a8")
 		)
 		(instances
-			(project "why2025"
+			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/17d99d7a-f62d-4bb1-94fb-986230f9fa4f"
 					(page "5")
 				)

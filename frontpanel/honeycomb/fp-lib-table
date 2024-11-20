@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "design")(type "KiCad")(uri "${KIPRJMOD}/design")(options "")(descr ""))
-  (lib (name "mountinghole")(type "KiCad")(uri "${KIPRJMOD}/mountinghole")(options "")(descr ""))
-)
