@@ -16,4 +16,5 @@
   (lib (name "flashchip")(type "KiCad")(uri "${KIPRJMOD}/library/flashchip.kicad_sym")(options "")(descr ""))
   (lib (name "BHI360")(type "KiCad")(uri "${KIPRJMOD}/library/BHI360.kicad_sym")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/library/BMI270.kicad_sym")(options "")(descr ""))
+  (lib (name "XINLUDA XL9535QF24")(type "KiCad")(uri "${KIPRJMOD}/library/XINLUDA XL9535QF24.kicad_sym")(options "")(descr ""))
 )

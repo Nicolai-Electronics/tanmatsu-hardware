@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2024-11-20")
-		(rev "Prototype 4")
+		(date "2024-12-24")
+		(rev "Prototype")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2024 Paul Honig")
 		(comment 2 "Copyright 2024 Nicolai Electronics")
