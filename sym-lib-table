@@ -17,4 +17,5 @@
   (lib (name "BHI360")(type "KiCad")(uri "${KIPRJMOD}/library/BHI360.kicad_sym")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/library/BMI270.kicad_sym")(options "")(descr ""))
   (lib (name "XINLUDA XL9535QF24")(type "KiCad")(uri "${KIPRJMOD}/library/XINLUDA XL9535QF24.kicad_sym")(options "")(descr ""))
+  (lib (name "CONN-SMD_PH-2AWB")(type "KiCad")(uri "${KIPRJMOD}/library/CONN-SMD_PH-2AWB.kicad_sym")(options "")(descr ""))
 )

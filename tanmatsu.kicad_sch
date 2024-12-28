@@ -15065,7 +15065,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "44adc6f0-73cd-4db8-82ec-0d6441bbe36e")
 		(property "Reference" "J18"
@@ -15105,6 +15105,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 158.75 54.61 0)
 			(effects
 				(font

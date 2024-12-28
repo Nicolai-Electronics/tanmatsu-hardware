@@ -1,0 +1,187 @@
+(footprint "JST_S2B-ZR-SM4A-TF(LF)(SN)-NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J19"
+		(at 0 2.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4a5d010-bfb0-433f-a484-e352f8b1ab1f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at -0.16 4.752 0)
+		(layer "F.Fab")
+		(uuid "06da159d-8645-4e8e-89b9-43f78f3a0fad")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "library:JST_S2B-ZR-SM4A-TF(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f1db481a-8b5b-4d87-92c4-43f769dc8b27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-S2B-ZR-SM4A-TF-LF-SN_C265329.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fe41d3e4-da9a-4a5d-b049-5ffc5d7e4919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fff3617c-aff1-4892-962e-88ad07fac1f5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC" "C265329"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d2282e-7561-411a-a428-8ade32b8d0b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c7c3cae-2975-4b79-aa2f-1ca6caa43133")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad2b539c-e02b-4368-905d-c7bdbbdbee3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289382c0-e96b-4c65-967e-14c2286e24b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3.65)
+		(end 3.5 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75b7613b-5b2d-483d-990f-21af2d4553d4")
+	)
+	(fp_line
+		(start -3.5 3.65)
+		(end -3.5 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19a9d275-d7f4-40d6-b8bc-d5e296ebf72c")
+	)
+	(fp_line
+		(start 3.5 -3.65)
+		(end 3.5 3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30eb4205-e1a6-4b1c-8530-6938d5c3175d")
+	)
+	(fp_line
+		(start 3.5 3.65)
+		(end -3.5 3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc616a9d-aab0-4d9a-a56a-0a84880b0ef9")
+	)
+	(pad "1" smd rect
+		(at -0.75 -2.15)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71eb0417-b7d7-45b9-9a13-00595f9cf115")
+	)
+	(pad "2" smd rect
+		(at 0.75 -2.15)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f09ebdd9-86c3-40a0-9e1b-9d6d623b4c9c")
+	)
+	(pad "MP" smd rect
+		(at -2.7 1.45)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "63ef8f03-c385-48dc-9fab-92caedbe64f7")
+	)
+	(pad "MP" smd rect
+		(at 2.7 1.45)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7fb889eb-4834-4928-a339-c8ee4b00f218")
+	)
+)

@@ -6330,16 +6330,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 44.45) (xy 137.16 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011884f7-81ae-4e7d-b242-9734c32b9bab")
-	)
-	(wire
-		(pts
 			(xy 134.62 148.59) (xy 133.35 148.59)
 		)
 		(stroke
@@ -6417,6 +6407,16 @@
 			(type solid)
 		)
 		(uuid "09331ca3-f5a6-4dee-87e3-611ba4bf27ec")
+	)
+	(wire
+		(pts
+			(xy 129.54 171.45) (xy 129.54 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096a114e-8e89-4b97-b0a9-b7facd311f7a")
 	)
 	(wire
 		(pts
@@ -6570,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 44.45) (xy 137.16 85.09)
+			(xy 134.62 57.15) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6630,6 +6630,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 179.07) (xy 121.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f06261-d4ec-4b42-9435-fbe6ec37d248")
+	)
+	(wire
+		(pts
 			(xy 105.41 62.23) (xy 105.41 67.31)
 		)
 		(stroke
@@ -6647,6 +6657,16 @@
 			(type default)
 		)
 		(uuid "27ffa8c7-075a-4cc1-ae99-417d87f920f5")
+	)
+	(wire
+		(pts
+			(xy 120.65 176.53) (xy 121.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28211a14-6e6a-4eb0-bdb1-27b1373bfe52")
 	)
 	(wire
 		(pts
@@ -7390,6 +7410,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 179.07) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76341d09-1dde-418f-b2d4-7fb766429f65")
+	)
+	(wire
+		(pts
 			(xy 158.75 44.45) (xy 158.75 73.66)
 		)
 		(stroke
@@ -7757,6 +7787,16 @@
 			(type solid)
 		)
 		(uuid "aad967d3-c709-4fff-92eb-52df1bd69d9f")
+	)
+	(wire
+		(pts
+			(xy 127 171.45) (xy 129.54 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab168f02-9816-4543-a888-9533de625ae6")
 	)
 	(wire
 		(pts
@@ -8207,6 +8247,16 @@
 			(type solid)
 		)
 		(uuid "dfcda336-9d59-4c88-9732-ee3364901530")
+	)
+	(wire
+		(pts
+			(xy 120.65 176.53) (xy 120.65 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05cbd43-54f1-495d-a157-30011c24e92f")
 	)
 	(wire
 		(pts
@@ -12396,6 +12446,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 129.54 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e145e0e-bbec-41b9-b71c-088f299fabeb")
+		(property "Reference" "#PWR097"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c3a41c3-f88c-4c5c-8ed3-7dd1e6958e7b")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 105.41 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14179,8 +14295,7 @@
 	)
 	(symbol
 		(lib_id "symbols:Conn_01x02_MountingPin")
-		(at 134.62 52.07 0)
-		(mirror x)
+		(at 134.62 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14188,7 +14303,7 @@
 		(dnp no)
 		(uuid "83c7a3e5-7ed2-48b8-9cad-7c28d621399c")
 		(property "Reference" "J17"
-			(at 137.668 49.1743 0)
+			(at 137.668 52.4257 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14312,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 137.668 51.7143 0)
+			(at 137.668 49.8857 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14205,8 +14320,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 134.62 52.07 0)
+		(property "Footprint" "library:CONN-SMD_PH-2AWB"
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +14330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 52.07 0)
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,7 +14339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 52.07 0)
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,8 +14347,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 134.62 52.07 0)
+		(property "LCSC" "C20598817"
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,6 +14369,116 @@
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Conn_01x02_MountingPin")
+		(at 127 179.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "85c09053-35bb-4a3f-92e2-e1b41e036a32")
+		(property "Reference" "J19"
+			(at 130.048 176.1743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 130.048 178.7143 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:JST_S2B-ZR-SM4A-TF(LF)(SN)-NOSILK"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-S2B-ZR-SM4A-TF-LF-SN_C265329.pdf"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265329"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc63c48a-1272-4bd9-9c71-5a02193437bc")
+		)
+		(pin "2"
+			(uuid "1a825efd-14ec-41e4-9080-b0a446614648")
+		)
+		(pin "MP"
+			(uuid "a68fb73c-3568-4253-ae4f-3042da961b13")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -16009,7 +16234,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 85.09 0)
+		(at 134.62 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16018,7 +16243,7 @@
 		(fields_autoplaced yes)
 		(uuid "af1ab3d8-a8ba-40d5-9131-6a77e6e8fe6f")
 		(property "Reference" "#PWR0236"
-			(at 137.16 91.44 0)
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16027,7 +16252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 90.17 0)
+			(at 134.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,7 +16260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 85.09 0)
+			(at 134.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 85.09 0)
+			(at 134.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 85.09 0)
+			(at 134.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,6 +17117,72 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c034e62c-9d93-49f8-939e-4c5a2d749dda")
+		(property "Reference" "#PWR082"
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "366b5d70-c6ab-4680-9b7c-e0da1a2a7421")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -18671,6 +18962,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom-power:VBATT")
+		(at 120.65 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b34d0d-3c5a-4c33-887d-413e8251c042")
+		(property "Reference" "#PWR0124"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBATT\""
+			(at 120.65 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f1a4e2b-ba11-45fb-bf0a-5f2bd1bfa849")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/1b21cacd-3ed4-4137-bf19-1f15d3ffa268"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
