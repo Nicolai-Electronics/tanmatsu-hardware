@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2024-12-30")
-		(rev "0.9")
+		(date "2024-12-31")
+		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2024 Paul Honig")
 		(comment 2 "Copyright 2024 Nicolai Electronics")
@@ -19024,7 +19024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_MOLEX-532610271_C189700.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_XUNPU-WAFER-MX1-25-2PWB_C3029359.html"
 			(at 268.986 73.66 0)
 			(effects
 				(font
@@ -19042,34 +19042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C189700"
-			(at 269.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 269.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 269.24 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" "C3029359"
 			(at 269.24 72.39 0)
 			(effects
 				(font
