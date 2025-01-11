@@ -649,7 +649,7 @@
       "plot": "fabrication/gerbers",
       "pos_files": "fabrication",
       "specctra_dsn": "",
-      "step": "why2025.step",
+      "step": "tanmatsu.step",
       "svg": "./",
       "vrml": ""
     },
