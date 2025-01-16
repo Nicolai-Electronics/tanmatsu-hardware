@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2024-12-31")
+		(date "2025-01-16")
 		(rev "1.0")
 		(company "Nicolai Electronics")
-		(comment 1 "Copyright 2024 Paul Honig")
-		(comment 2 "Copyright 2024 Nicolai Electronics")
+		(comment 1 "Copyright 2025 Paul Honig")
+		(comment 2 "Copyright 2025 Nicolai Electronics")
 		(comment 3 "License: CERN-OHL-P")
 	)
 	(lib_symbols

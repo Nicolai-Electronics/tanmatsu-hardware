@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2024-12-31")
+		(date "2025-01-16")
 		(rev "1.0")
 		(company "Nicolai Electronics")
-		(comment 1 "Copyright 2024 Paul Honig")
-		(comment 2 "Copyright 2024 Nicolai Electronics")
+		(comment 1 "Copyright 2025 Paul Honig")
+		(comment 2 "Copyright 2025 Nicolai Electronics")
 		(comment 3 "License: CERN-OHL-P")
 	)
 	(lib_symbols
@@ -2740,7 +2740,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 128.27 101.6)
+			(xy 128.27 99.06) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 128.27 81.28)
+			(xy 128.27 59.69) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 101.6)
+			(xy 137.16 99.06) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 137.16 81.28)
+			(xy 137.16 57.15) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4359,7 @@
 		(at 133.35 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4373,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "~"
 			(at 135.89 140.9762 0)
 			(effects
 				(font
@@ -4391,7 +4391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 133.35 139.7 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 133.35 139.7 0)
 			(effects
 				(font
@@ -4608,33 +4608,6 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 31.75 95.25 0)
 			(effects
 				(font
@@ -5445,7 +5418,7 @@
 		(at 115.57 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5459,7 +5432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "~"
 			(at 118.11 140.9762 0)
 			(effects
 				(font
@@ -5477,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 139.7 0)
 			(effects
 				(font
@@ -5486,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 115.57 139.7 0)
 			(effects
 				(font
@@ -5784,7 +5757,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 128.27 85.09 0)
+		(at 128.27 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5793,15 +5766,15 @@
 		(dnp no)
 		(uuid "637d888d-f4fe-4b81-bea9-697d15a869d2")
 		(property "Reference" "R67"
-			(at 132.08 86.36 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "51k"
-			(at 132.08 83.82 0)
+		(property "Value" "100k"
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5782,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.048 85.09 90)
+			(at 130.048 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,8 +5790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
-			(at 128.27 85.09 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 85.09 0)
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,35 +5808,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 128.27 85.09 0)
+		(property "LCSC" "C25741"
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 124.46 134.62 0)
 			(effects
 				(font
@@ -7036,7 +6982,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 137.16 85.09 0)
+		(at 137.16 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7045,15 +6991,15 @@
 		(dnp no)
 		(uuid "b481b1b3-ca7c-4034-bb38-9dd5f0e113ed")
 		(property "Reference" "R68"
-			(at 140.97 86.36 0)
+			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "51k"
-			(at 140.97 83.82 0)
+		(property "Value" "100k"
+			(at 140.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7007,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.938 85.09 90)
+			(at 138.938 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,8 +7015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5102TCE_C25794.html"
-			(at 137.16 85.09 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 85.09 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,35 +7033,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 137.16 85.09 0)
+		(property "LCSC" "C25741"
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
