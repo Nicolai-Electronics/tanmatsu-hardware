@@ -5250,7 +5250,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4188448e-d837-4088-af89-26f0546dec48")
 		(property "Reference" "J14"
@@ -5278,7 +5278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -5287,7 +5287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA"
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -5296,34 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 142.24 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "LCSC" "C496550"
 			(at 142.24 134.62 0)
 			(effects
 				(font
