@@ -2507,12 +2507,6 @@
 		(uuid "411af2ab-f23c-4417-bcac-5bd897b9de51")
 	)
 	(junction
-		(at 185.42 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c1558c1-e955-4fe2-bc93-85d5e3b0b524")
-	)
-	(junction
 		(at 158.75 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2529,6 +2523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6edaaa3d-8425-4ae7-879f-ccbbf4cb182b")
+	)
+	(junction
+		(at 168.91 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75b78b29-5db5-4a17-aae4-b9a2a3bfa510")
 	)
 	(junction
 		(at 173.99 72.39)
@@ -2648,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 139.7) (xy 186.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079f853f-39d2-4325-9d92-95556b5825ab")
+	)
+	(wire
+		(pts
 			(xy 224.79 119.38) (xy 224.79 124.46)
 		)
 		(stroke
@@ -2698,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 137.16) (xy 185.42 137.16)
+			(xy 168.91 137.16) (xy 186.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2828,6 +2838,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 139.7) (xy 170.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccfcad5-9967-4f51-b692-c34f736c4b62")
+	)
+	(wire
+		(pts
 			(xy 128.27 99.06) (xy 128.27 101.6)
 		)
 		(stroke
@@ -2858,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 137.16) (xy 168.91 142.24)
+			(xy 168.91 137.16) (xy 168.91 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3038,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 139.7) (xy 168.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7012db-074d-4298-b255-6e80b8b776cd")
+	)
+	(wire
+		(pts
 			(xy 222.25 121.92) (xy 242.57 121.92)
 		)
 		(stroke
@@ -3188,26 +3218,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.7) (xy 186.69 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd64da1-08c7-403d-85cb-934719ce9962")
-	)
-	(wire
-		(pts
-			(xy 185.42 137.16) (xy 185.42 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f247efb-2d47-4ba2-b9bb-3311149ee4bb")
-	)
-	(wire
-		(pts
 			(xy 49.53 88.9) (xy 49.53 91.44)
 		)
 		(stroke
@@ -3225,16 +3235,6 @@
 			(type default)
 		)
 		(uuid "94671799-c97d-4091-947f-93146b326ffb")
-	)
-	(wire
-		(pts
-			(xy 185.42 137.16) (xy 186.69 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959d2d0d-6850-40fd-a632-5b3d63a9e317")
 	)
 	(wire
 		(pts
@@ -4411,6 +4411,83 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
 					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 173.99 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06b62aaa-f089-4c32-88b9-2b52836e2017")
+		(property "Reference" "R84"
+			(at 173.99 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 173.99 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.99 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.html"
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aaf5090-0fee-4e3d-82df-3bd5f34578ca")
+		)
+		(pin "2"
+			(uuid "98f02361-ee70-452b-95d9-a561bff8d84e")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "R84")
 					(unit 1)
 				)
 			)
