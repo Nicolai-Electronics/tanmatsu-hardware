@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-02-26")
+		(date "2025-02-27")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -10906,7 +10906,7 @@
 	)
 	(hierarchical_label "SAO_IO2"
 		(shape bidirectional)
-		(at 27.94 92.71 180)
+		(at 27.94 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11225,7 +11225,7 @@
 	)
 	(hierarchical_label "CH32_SWCLK"
 		(shape output)
-		(at 27.94 130.81 180)
+		(at 27.94 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
