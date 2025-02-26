@@ -12821,7 +12821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C7496820"
 			(at 20.32 33.02 0)
 			(effects
 				(font
@@ -14316,7 +14316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Dll-PH2AWB/C20598817"
 			(at 134.62 49.53 0)
 			(effects
 				(font

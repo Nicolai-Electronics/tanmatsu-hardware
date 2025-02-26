@@ -6107,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BatWireless-BWSMA_KEP001/C496550"
 			(at 274.32 127 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/116222-0402WGF523JTCE/C114978"
 			(at 248.92 55.88 0)
 			(effects
 				(font
@@ -7851,6 +7851,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C411293"
+			(at 209.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8856,7 +8864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/EverlightElec-IR968_8P_X1_X4XBY/C17179483"
 			(at 261.62 55.88 0)
 			(effects
 				(font

@@ -3204,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BoschSensortec-BMI270/C2836813"
 			(at 52.07 34.29 0)
 			(effects
 				(font

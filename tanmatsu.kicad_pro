@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|57172330|-13800360|dbaea4d7-24eb-4453-906f-76a93722de2b|380ceb76-7013-4770-8686-ddcef7a3ad78",
+          ""
+        ],
+        [
+          "copper_edge_clearance|57172330|-19398520|dbaea4d7-24eb-4453-906f-76a93722de2b|2f928636-6162-4ccc-8a07-937434da19a1",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -706,21 +715,21 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
+          "group_by": true,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -742,7 +751,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -789,7 +798,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
