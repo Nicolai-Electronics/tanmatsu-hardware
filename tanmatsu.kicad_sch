@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-03-14")
+		(date "2025-03-18")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -8864,12 +8864,6 @@
 		(uuid "16568f2d-362f-4ae3-91ea-7edb21e095db")
 	)
 	(junction
-		(at 111.76 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b163c46-15ec-4b1e-80ef-1e01f249535e")
-	)
-	(junction
 		(at 275.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8954,6 +8948,12 @@
 		(uuid "7a96f9f4-0842-41fb-bb3e-844f1b3e93d1")
 	)
 	(junction
+		(at 80.01 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8159d535-5e50-4f19-9665-b5ce89074ccc")
+	)
+	(junction
 		(at 179.07 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8976,12 +8976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc34a9e-1d2e-4ed3-9c84-c8ee0c29c1c0")
-	)
-	(junction
-		(at 91.44 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92a73859-a6cd-4697-a93b-64e7a4b7d689")
 	)
 	(junction
 		(at 33.02 140.97)
@@ -9100,16 +9094,6 @@
 	(no_connect
 		(at 41.91 59.69)
 		(uuid "b0e500fa-c5cc-433d-8388-1af15bc9b54c")
-	)
-	(wire
-		(pts
-			(xy 111.76 19.05) (xy 120.65 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011578e9-6d6d-420d-8f92-1c6ea12bef3a")
 	)
 	(wire
 		(pts
@@ -9580,16 +9564,6 @@
 			(type solid)
 		)
 		(uuid "2c0994e8-0776-4ca2-aef0-15e7e6744c77")
-	)
-	(wire
-		(pts
-			(xy 91.44 19.05) (xy 111.76 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d1019ce-eaf6-4e03-9fdd-9d83e3d86902")
 	)
 	(wire
 		(pts
@@ -10153,16 +10127,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 17.78) (xy 91.44 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "689f6a00-9b97-4ed3-ad11-b55edf5b48ce")
-	)
-	(wire
-		(pts
 			(xy 80.01 33.02) (xy 78.74 33.02)
 		)
 		(stroke
@@ -10303,7 +10267,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 44.45 29.21)
+			(xy 44.45 31.75) (xy 44.45 17.78)
 		)
 		(stroke
 			(width 0)
@@ -10360,6 +10324,16 @@
 			(type default)
 		)
 		(uuid "813a6fcd-fdcc-41c4-8150-cc228fb4731f")
+	)
+	(wire
+		(pts
+			(xy 62.23 17.78) (xy 62.23 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8142c49f-fe00-4dc9-98c1-2f29d9a9d539")
 	)
 	(wire
 		(pts
@@ -10673,6 +10647,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 26.67) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f749e17-1799-40fe-b261-410bfda73039")
+	)
+	(wire
+		(pts
 			(xy 29.21 135.89) (xy 29.21 148.59)
 		)
 		(stroke
@@ -10733,7 +10717,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 19.05) (xy 111.76 21.59)
+			(xy 53.34 17.78) (xy 53.34 21.59)
 		)
 		(stroke
 			(width 0)
@@ -10783,7 +10767,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 19.05) (xy 91.44 31.75)
+			(xy 91.44 26.67) (xy 91.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11240,16 +11224,6 @@
 			(type default)
 		)
 		(uuid "e3dd887c-8e39-47b8-999d-fc3a1d08504f")
-	)
-	(wire
-		(pts
-			(xy 120.65 21.59) (xy 120.65 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e500f6cd-1f9b-462f-a990-8043951154bd")
 	)
 	(wire
 		(pts
@@ -14514,6 +14488,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 91.44 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14faa4b0-34cb-4a57-b881-c22ad3c47298")
+		(property "Reference" "#PWR0230"
+			(at 91.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 88.138 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44cf7f40-18c9-49fc-a2c7-5a3cff2b0650")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mch2021-rescue:GND-power")
 		(at 52.07 39.37 0)
 		(unit 1)
@@ -16027,7 +16067,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:C-Device")
-		(at 111.76 25.4 0)
+		(at 53.34 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16035,7 +16075,7 @@
 		(dnp no)
 		(uuid "5829e923-63e6-4928-803b-5f370b4a4843")
 		(property "Reference" "C1"
-			(at 106.172 26.67 90)
+			(at 47.752 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16084,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 108.204 26.67 90)
+			(at 49.784 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16093,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 112.7252 29.21 0)
+			(at 54.3052 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16102,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
-			(at 111.76 25.4 0)
+			(at 53.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 25.4 0)
+			(at 53.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +16120,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 111.76 25.4 0)
+			(at 53.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +16129,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 111.76 25.4 0)
+			(at 53.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16245,7 +16285,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 44.45 29.21 0)
+		(at 44.45 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16253,7 +16293,7 @@
 		(dnp no)
 		(uuid "60dce6f1-3d6a-45db-bce2-8c3b0c5d03c4")
 		(property "Reference" "#PWR04"
-			(at 44.45 33.02 0)
+			(at 44.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16262,7 +16302,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 44.45 25.4 0)
+			(at 44.45 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16270,7 +16310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 29.21 0)
+			(at 44.45 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16279,7 +16319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 29.21 0)
+			(at 44.45 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16288,7 +16328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 44.45 29.21 0)
+			(at 44.45 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16303,71 +16343,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 91.44 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "610adb9d-042c-4e1e-b643-8ccb9d4205cc")
-		(property "Reference" "#PWR01"
-			(at 91.44 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 91.44 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79b2f2de-c412-4659-9b70-53a180670426")
-		)
-		(instances
-			(project "why2025"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -17174,7 +17149,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:GND-power")
-		(at 111.76 29.21 0)
+		(at 53.34 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17182,7 +17157,7 @@
 		(dnp no)
 		(uuid "7bf7f753-a06c-41f6-8b89-fae5c38c9b2b")
 		(property "Reference" "#PWR05"
-			(at 111.76 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +17166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.887 33.6042 0)
+			(at 53.467 33.6042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17199,7 +17174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 29.21 0)
+			(at 53.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17208,7 +17183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 29.21 0)
+			(at 53.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17217,7 +17192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 29.21 0)
+			(at 53.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,6 +17207,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 62.23 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c4e4598-83ab-4142-8d4f-5707be9c1d91")
+		(property "Reference" "#PWR0300"
+			(at 62.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 62.23 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6947e147-b50d-424a-8ebb-11b690ea05e6")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -19057,7 +19097,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:C-Device")
-		(at 120.65 25.4 0)
+		(at 62.23 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19065,7 +19105,7 @@
 		(dnp no)
 		(uuid "ae5282ce-f735-4156-8750-689a0cfcb2d6")
 		(property "Reference" "C2"
-			(at 115.062 26.67 90)
+			(at 56.642 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19074,7 +19114,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 117.094 26.67 90)
+			(at 58.674 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19083,7 +19123,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.6152 29.21 0)
+			(at 63.1952 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19092,7 +19132,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19101,7 +19141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19110,7 +19150,7 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19119,7 +19159,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19128,7 +19168,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19137,7 +19177,7 @@
 			)
 		)
 		(property "Category" ""
-			(at 120.65 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,7 +19267,7 @@
 	)
 	(symbol
 		(lib_id "mch2021-rescue:GND-power")
-		(at 120.65 29.21 0)
+		(at 62.23 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19235,7 +19275,7 @@
 		(dnp no)
 		(uuid "aed24de9-4626-4585-a52a-3cc435886f61")
 		(property "Reference" "#PWR06"
-			(at 120.65 35.56 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19244,7 +19284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.777 33.6042 0)
+			(at 62.357 33.6042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19252,7 +19292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 29.21 0)
+			(at 62.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19261,7 +19301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 29.21 0)
+			(at 62.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19270,7 +19310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 29.21 0)
+			(at 62.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22110,6 +22150,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 80.01 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f33a902e-1596-4000-b350-2ba160c5cd1a")
+		(property "Reference" "#PWR0231"
+			(at 80.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 76.708 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d796aa18-5469-4492-bfc1-5008cd314b6d")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 35.56 185.42 0)
 		(mirror y)
@@ -22336,6 +22442,71 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 53.34 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa33861b-8f48-45a2-ba53-1980a239aaf5")
+		(property "Reference" "#PWR0232"
+			(at 53.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 53.34 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 53.34 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f171a87-9675-4c01-bc15-22740e535631")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
