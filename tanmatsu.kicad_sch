@@ -20690,7 +20690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_GOODWORK-ES3-3D1HA03_C5137774.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Elecsuper-CDSOD323T03SC/C22363742"
 			(at 128.27 153.67 0)
 			(effects
 				(font
@@ -20708,7 +20708,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5137774"
+		(property "LCSC" "C22363742"
 			(at 128.27 153.67 0)
 			(effects
 				(font
