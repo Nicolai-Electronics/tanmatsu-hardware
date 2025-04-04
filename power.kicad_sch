@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-03-18")
+		(date "2025-04-04")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -12867,7 +12867,7 @@
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 177.8 34.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)

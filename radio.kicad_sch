@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-03-18")
+		(date "2025-04-04")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -3214,6 +3214,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 148.59) (xy 219.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e35229-b879-495f-bd02-1809f2d1c60f")
+	)
+	(wire
+		(pts
 			(xy 224.79 128.27) (xy 224.79 130.81)
 		)
 		(stroke
@@ -4190,7 +4200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0309e72b-e8b4-4491-accf-3d3b755d9a6c")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0219"
 			(at 49.53 92.71 0)
 			(effects
 				(font
@@ -4240,7 +4250,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0220")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -4255,7 +4265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e3f9114-e52c-4c70-9710-e9fbd2b1de38")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0223"
 			(at 128.27 107.95 0)
 			(effects
 				(font
@@ -4305,7 +4315,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0224")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e965d0e-6a27-428b-8820-7cdb122c4475")
-		(property "Reference" "C65"
+		(property "Reference" "C66"
 			(at 216.916 151.384 0)
 			(effects
 				(font
@@ -4411,7 +4421,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "C65")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -4491,7 +4501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "189759e4-66ad-4b8c-9ba2-ab284936776c")
-		(property "Reference" "U23"
+		(property "Reference" "U22"
 			(at 209.042 133.096 0)
 			(effects
 				(font
@@ -4558,7 +4568,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "U23")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2001e230-f666-4c3d-9a1a-c28acbda3a8a")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0224"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -4688,7 +4698,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0225")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "227a9d49-865c-4eca-a7aa-572e232b5706")
-		(property "Reference" "R67"
+		(property "Reference" "R66"
 			(at 35.56 96.52 0)
 			(effects
 				(font
@@ -4765,7 +4775,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R67")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -5628,7 +5638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "637d888d-f4fe-4b81-bea9-697d15a869d2")
-		(property "Reference" "R68"
+		(property "Reference" "R67"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -5689,7 +5699,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R68")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b7ff2f8-b34a-476b-8996-385ad0949a91")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0225"
 			(at 199.39 123.19 0)
 			(effects
 				(font
@@ -5756,7 +5766,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0226")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3149bf-80dc-4534-81df-f8bedf19d701")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0221"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -6029,7 +6039,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0222")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75cf22f7-6272-4001-836a-304f5f3053d2")
-		(property "Reference" "R70"
+		(property "Reference" "R69"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -6171,7 +6181,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R70")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87094c98-fadc-494c-820b-2b95579863d2")
-		(property "Reference" "R66"
+		(property "Reference" "R70"
 			(at 146.05 181.102 90)
 			(effects
 				(font
@@ -6313,7 +6323,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R66")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -6537,7 +6547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "997f8377-b079-4fe5-b299-1cf3c85aef72")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0227"
 			(at 189.23 162.56 0)
 			(effects
 				(font
@@ -6587,7 +6597,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0228")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b481b1b3-ca7c-4034-bb38-9dd5f0e113ed")
-		(property "Reference" "R69"
+		(property "Reference" "R68"
 			(at 142.24 96.52 0)
 			(effects
 				(font
@@ -6806,7 +6816,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "R69")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -6822,7 +6832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58ed238-6f8f-4564-84d8-6391127838b6")
-		(property "Reference" "U22"
+		(property "Reference" "U21"
 			(at 245.11 115.57 0)
 			(effects
 				(font
@@ -6951,7 +6961,7 @@
 		(instances
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "U22")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf58026b-d970-4dde-8460-94b2e533718f")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0222"
 			(at 87.63 107.95 0)
 			(effects
 				(font
@@ -7158,7 +7168,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0223")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfc88e83-6f01-485c-9aea-950c26785b5d")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0226"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -7225,7 +7235,7 @@
 		(instances
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0227")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d139584e-ff26-43bd-8880-af08c82f871b")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0220"
 			(at 31.75 107.95 0)
 			(effects
 				(font
@@ -7290,7 +7300,113 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0221")
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4d95d11-cfa4-4eb0-b799-cb1fa432786c")
+		(property "Reference" "C65"
+			(at 205.486 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 205.232 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.3148 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "156ee0d8-fde8-463d-95c5-156616d819b2")
+		)
+		(pin "1"
+			(uuid "5fb59f05-1616-43a1-abff-45072b4220cf")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -7306,7 +7422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7172929-cf4f-450c-a7b0-8f9bb87e68ee")
-		(property "Reference" "U21"
+		(property "Reference" "U20"
 			(at 89.5859 26.67 0)
 			(effects
 				(font
@@ -7477,7 +7593,73 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "U21")
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 208.28 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc254855-36b4-4386-ad9f-142ad386e2dd")
+		(property "Reference" "#PWR0229"
+			(at 208.28 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 208.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6971137a-48d8-48d8-bc90-0dbf3de31541")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -7493,7 +7675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd49d9cc-c645-4a98-b111-a1c7b5b6e361")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0228"
 			(at 199.39 162.56 0)
 			(effects
 				(font
@@ -7543,7 +7725,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0229")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e828834b-42e4-43b9-a590-e6af4f70b3ed")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0233"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -7609,7 +7791,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0219")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -7794,7 +7976,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8635df5-674c-417f-a63b-11864e96e2d8")
-		(property "Reference" "U20"
+		(property "Reference" "U23"
 			(at 160.145 179.07 0)
 			(effects
 				(font
@@ -7855,7 +8037,7 @@
 		(instances
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "U20")
+					(reference "U23")
 					(unit 1)
 				)
 			)
