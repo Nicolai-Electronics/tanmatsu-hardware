@@ -10673,7 +10673,7 @@
 		)
 		(uuid "2152eaba-35d5-4780-883e-b732af7a44f0")
 	)
-	(hierarchical_label "E11"
+	(hierarchical_label "GPIO53"
 		(shape bidirectional)
 		(at 29.21 163.83 180)
 		(effects
@@ -10684,7 +10684,7 @@
 		)
 		(uuid "2384ea02-310b-4488-be1d-ac119e1b03a0")
 	)
-	(hierarchical_label "E2"
+	(hierarchical_label "GPIO0"
 		(shape bidirectional)
 		(at 27.94 26.67 180)
 		(effects
@@ -10706,7 +10706,7 @@
 		)
 		(uuid "2df4ec0a-8e8e-4ff5-b8f0-fdd99176c0c8")
 	)
-	(hierarchical_label "E8"
+	(hierarchical_label "GPIO50"
 		(shape bidirectional)
 		(at 29.21 156.21 180)
 		(effects
@@ -10794,7 +10794,7 @@
 		)
 		(uuid "440451ed-4d47-4b35-8a68-be4656d67326")
 	)
-	(hierarchical_label "E0"
+	(hierarchical_label "GPIO36"
 		(shape bidirectional)
 		(at 27.94 135.89 180)
 		(effects
@@ -10860,7 +10860,7 @@
 		)
 		(uuid "59b05792-b69d-4249-abf0-a006b1a2d9a7")
 	)
-	(hierarchical_label "E10"
+	(hierarchical_label "GPIO52"
 		(shape bidirectional)
 		(at 29.21 161.29 180)
 		(effects
@@ -10882,7 +10882,7 @@
 		)
 		(uuid "5acf1e8d-cd6d-491e-9893-87dc20141571")
 	)
-	(hierarchical_label "E6"
+	(hierarchical_label "GPIO45"
 		(shape bidirectional)
 		(at 110.49 78.74 180)
 		(effects
@@ -10959,7 +10959,7 @@
 		)
 		(uuid "77d1917f-d32d-4ad0-a883-bb4c7b0ff5cb")
 	)
-	(hierarchical_label "E7"
+	(hierarchical_label "GPIO49"
 		(shape bidirectional)
 		(at 29.21 153.67 180)
 		(effects
@@ -10992,7 +10992,7 @@
 		)
 		(uuid "83e16ac6-882d-4c8e-b683-877506a0d947")
 	)
-	(hierarchical_label "E4"
+	(hierarchical_label "GPIO47"
 		(shape bidirectional)
 		(at 110.49 83.82 180)
 		(effects
@@ -11058,7 +11058,7 @@
 		)
 		(uuid "96825677-b18c-4f7a-b61e-28c094d2baf4")
 	)
-	(hierarchical_label "EXT_INT"
+	(hierarchical_label "GPIO7"
 		(shape input)
 		(at 27.94 44.45 180)
 		(effects
@@ -11091,7 +11091,7 @@
 		)
 		(uuid "a13b3835-5a70-4330-b532-03fddf2cd507")
 	)
-	(hierarchical_label "E1"
+	(hierarchical_label "GPIO6"
 		(shape bidirectional)
 		(at 27.94 41.91 180)
 		(effects
@@ -11113,7 +11113,7 @@
 		)
 		(uuid "a53e17d4-2721-4131-8ac7-98739a5ceb32")
 	)
-	(hierarchical_label "E3"
+	(hierarchical_label "GPIO46"
 		(shape bidirectional)
 		(at 110.49 93.98 180)
 		(effects
@@ -11146,7 +11146,7 @@
 		)
 		(uuid "b05e6169-3357-48b3-a6ff-a940df737824")
 	)
-	(hierarchical_label "E12"
+	(hierarchical_label "GPIO54"
 		(shape bidirectional)
 		(at 29.21 166.37 180)
 		(effects
@@ -11201,7 +11201,7 @@
 		)
 		(uuid "ce8f3ae1-6c7e-4ffb-918c-584f269003fd")
 	)
-	(hierarchical_label "E9"
+	(hierarchical_label "GPIO51"
 		(shape bidirectional)
 		(at 29.21 158.75 180)
 		(effects
@@ -11256,7 +11256,7 @@
 		)
 		(uuid "e0e56561-2854-4da7-9dee-6b4f6629b674")
 	)
-	(hierarchical_label "E5"
+	(hierarchical_label "GPIO48"
 		(shape bidirectional)
 		(at 110.49 88.9 180)
 		(effects
