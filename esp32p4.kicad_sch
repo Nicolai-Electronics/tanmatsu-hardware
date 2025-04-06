@@ -12333,6 +12333,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 105.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "66"
 			(uuid "fc3113aa-d52b-480a-8210-8cdb68f3d323")
 		)
@@ -13016,6 +13024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -13840,6 +13856,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -15495,6 +15519,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "66"
 			(uuid "fc3113aa-d52b-480a-8210-8cdb68f3d326")
 		)
@@ -16414,6 +16446,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 259.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -17835,6 +17875,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -20239,6 +20287,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "66"
 			(uuid "fc3113aa-d52b-480a-8210-8cdb68f3d329")
 		)
@@ -20649,6 +20705,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -22380,6 +22444,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "66"
 			(uuid "fc3113aa-d52b-480a-8210-8cdb68f3d32b")
 		)
@@ -23667,6 +23739,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "66"
 			(uuid "fc3113aa-d52b-480a-8210-8cdb68f3d32c")
 		)
@@ -24380,6 +24460,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"
@@ -25236,6 +25324,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "66"

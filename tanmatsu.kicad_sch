@@ -15744,6 +15744,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 17.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "e8159b7a-c76f-458b-bdc6-0ab26f637f43")
 		)
@@ -17443,6 +17451,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e798eab-570a-4bf9-81e2-2ec5aba838da")
 		)
@@ -17540,6 +17556,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -17897,7 +17921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
+		(property "FT Rotation Offset" "-90"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -18544,6 +18568,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 36.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "9671bc14-6f61-4140-be88-50bb999cda44")
 		)
@@ -18645,25 +18677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 257.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 257.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "FT Rotation Offset" "-90"
 			(at 257.81 138.43 0)
 			(effects
 				(font
@@ -18948,6 +18962,14 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 48.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "390adcbc-da27-48cc-879b-4046b922782c")
 		)
@@ -19041,25 +19063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 57.15 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 57.15 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "FT Rotation Offset" "-90"
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -19640,7 +19644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
+		(property "Check_pricesFT Rotation Offset" "-90"
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -19649,22 +19653,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" ""
+		(property "FT Rotation Offset" "-90"
 			(at 78.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 78.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -20194,6 +20188,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-2"
+			(at 34.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21308,25 +21310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 26.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 26.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "FT Position Offset" "0,1"
 			(at 26.67 46.99 0)
 			(effects
 				(font
@@ -22381,25 +22365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 260.35 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
+		(property "FT Rotation Offset" "180"
 			(at 260.35 33.02 0)
 			(effects
 				(font
