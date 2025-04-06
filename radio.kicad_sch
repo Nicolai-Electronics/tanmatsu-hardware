@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-04-04")
+		(date "2025-04-06")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -2389,7 +2389,7 @@
 		)
 	)
 	(rectangle
-		(start 182.245 109.22)
+		(start 167.64 109.22)
 		(end 282.575 163.83)
 		(stroke
 			(width 0)
@@ -2402,7 +2402,7 @@
 	)
 	(text "LoRa radio"
 		(exclude_from_sim no)
-		(at 188.214 111.76 0)
+		(at 174.244 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,10 +2605,16 @@
 		(uuid "c0d39000-304e-4fd4-9af8-d4783f24816d")
 	)
 	(junction
-		(at 189.23 140.97)
+		(at 176.53 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c73195b6-de36-4572-8ce5-cc651fe5cc43")
+	)
+	(junction
+		(at 208.28 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf215295-f073-461b-939a-f888d24ebeee")
 	)
 	(junction
 		(at 265.43 153.67)
@@ -2704,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 119.38) (xy 199.39 130.81)
+			(xy 186.69 119.38) (xy 186.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 125.73) (xy 189.23 140.97)
+			(xy 176.53 125.73) (xy 176.53 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 156.21) (xy 199.39 151.13)
+			(xy 186.69 156.21) (xy 186.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 189.23 144.78)
+			(xy 176.53 140.97) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 140.97) (xy 227.33 140.97)
+			(xy 204.47 140.97) (xy 227.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3344,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 148.59) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd123f2b-cc4e-4437-a07c-df4e3108def7")
+	)
+	(wire
+		(pts
 			(xy 224.79 135.89) (xy 227.33 135.89)
 		)
 		(stroke
@@ -3384,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 125.73) (xy 222.25 125.73)
+			(xy 176.53 125.73) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 152.4) (xy 189.23 156.21)
+			(xy 176.53 152.4) (xy 176.53 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e965d0e-6a27-428b-8820-7cdb122c4475")
-		(property "Reference" "C66"
+		(property "Reference" "C67"
 			(at 216.916 151.384 0)
 			(effects
 				(font
@@ -4421,7 +4437,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "C66")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4510,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1GU04")
-		(at 204.47 140.97 0)
+		(at 191.77 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4502,7 +4518,7 @@
 		(dnp no)
 		(uuid "189759e4-66ad-4b8c-9ba2-ab284936776c")
 		(property "Reference" "U22"
-			(at 209.042 133.096 0)
+			(at 196.342 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4526,7 @@
 			)
 		)
 		(property "Value" "74LVC1GU04"
-			(at 209.042 135.636 0)
+			(at 196.342 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4534,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 204.47 140.97 0)
+			(at 191.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 204.47 140.97 0)
+			(at 191.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4552,7 @@
 			)
 		)
 		(property "Description" "74LVC1G04, Single NOT Gate, Low-Voltage CMOS"
-			(at 204.47 140.97 0)
+			(at 191.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4561,7 @@
 			)
 		)
 		(property "LCSC" "C485082"
-			(at 204.47 140.97 0)
+			(at 191.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40c4845b-cf3e-48b5-a337-f9f178f1d41a")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0231"
 			(at 219.71 162.56 0)
 			(effects
 				(font
@@ -5387,7 +5403,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0230")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -5403,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490ce3f7-9165-4d9a-9cd5-532480a8fed4")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0233"
 			(at 265.43 162.56 0)
 			(effects
 				(font
@@ -5453,7 +5469,179 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0232")
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50050db7-dc4a-4e3b-b88d-e548e7cd033e")
+		(property "Reference" "C65"
+			(at 193.04 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 193.04 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 195.8848 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.html"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C602037"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b49e0f2-84a6-4fe1-aa16-aa690a6f4e3a")
+		)
+		(pin "2"
+			(uuid "e4194bae-4cb0-4790-8ad3-842c9676b43b")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 196.85 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d17b4ba-eb6d-4336-9d76-8a7e665bb95e")
+		(property "Reference" "#PWR0229"
+			(at 196.85 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 196.85 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d7983d0-23a3-4c27-9b6e-aedc41ac0521")
+		)
+		(instances
+			(project "tanmatsu"
+				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5896,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 199.39 119.38 0)
+		(at 186.69 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,7 +5904,7 @@
 		(dnp no)
 		(uuid "6b7ff2f8-b34a-476b-8996-385ad0949a91")
 		(property "Reference" "#PWR0225"
-			(at 199.39 123.19 0)
+			(at 186.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5913,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 196.342 114.3 0)
+			(at 183.642 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6300,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 189.23 148.59 0)
+		(at 176.53 148.59 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6121,7 +6309,7 @@
 		(dnp no)
 		(uuid "75cf22f7-6272-4001-836a-304f5f3053d2")
 		(property "Reference" "R69"
-			(at 185.42 147.32 0)
+			(at 172.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6317,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 185.42 149.86 0)
+			(at 172.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.452 148.59 90)
+			(at 174.752 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6334,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 189.23 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6352,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 189.23 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cbc4ab1-f28c-4733-8c8b-cebe3f5e8940")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0232"
 			(at 224.79 162.56 0)
 			(effects
 				(font
@@ -6247,7 +6435,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0231")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -6539,7 +6727,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 189.23 156.21 0)
+		(at 176.53 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6548,7 +6736,7 @@
 		(fields_autoplaced yes)
 		(uuid "997f8377-b079-4fe5-b299-1cf3c85aef72")
 		(property "Reference" "#PWR0227"
-			(at 189.23 162.56 0)
+			(at 176.53 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 161.29 0)
+			(at 176.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 156.21 0)
+			(at 176.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 156.21 0)
+			(at 176.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 189.23 156.21 0)
+			(at 176.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4d95d11-cfa4-4eb0-b799-cb1fa432786c")
-		(property "Reference" "C65"
+		(property "Reference" "C66"
 			(at 205.486 151.384 0)
 			(effects
 				(font
@@ -7406,7 +7594,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "C65")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc254855-36b4-4386-ad9f-142ad386e2dd")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0230"
 			(at 208.28 162.56 0)
 			(effects
 				(font
@@ -7659,7 +7847,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0229")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -7667,7 +7855,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 199.39 156.21 0)
+		(at 186.69 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7676,7 +7864,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd49d9cc-c645-4a98-b111-a1c7b5b6e361")
 		(property "Reference" "#PWR0228"
-			(at 199.39 162.56 0)
+			(at 186.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 161.29 0)
+			(at 186.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +7881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 156.21 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 156.21 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 199.39 156.21 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e828834b-42e4-43b9-a590-e6af4f70b3ed")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0234"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -7791,7 +7979,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183/44fda57d-f8c9-4d6b-8127-d170c04d09fe"
-					(reference "#PWR0233")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
