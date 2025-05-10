@@ -20,4 +20,5 @@
   (lib (name "CONN-SMD_PH-2AWB")(type "KiCad")(uri "${KIPRJMOD}/library/CONN-SMD_PH-2AWB.kicad_sym")(options "")(descr ""))
   (lib (name "WIRELM-SMD_E22-900M22S")(type "KiCad")(uri "${KIPRJMOD}/library/WIRELM-SMD_E22-900M22S.kicad_sym")(options "")(descr ""))
   (lib (name "LED-TH_L3.0-W2.9-P2.54-FD")(type "KiCad")(uri "${KIPRJMOD}/library/LED-TH_L3.0-W2.9-P2.54-FD.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
 )
