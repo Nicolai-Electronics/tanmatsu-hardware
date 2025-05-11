@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|57172330|-13800360|dbaea4d7-24eb-4453-906f-76a93722de2b|380ceb76-7013-4770-8686-ddcef7a3ad78",
+          "copper_edge_clearance|57172330|-13800360|a3750629-1535-4c15-951b-75ae01e02596|380ceb76-7013-4770-8686-ddcef7a3ad78",
           ""
         ],
         [
-          "copper_edge_clearance|57172330|-19398520|dbaea4d7-24eb-4453-906f-76a93722de2b|2f928636-6162-4ccc-8a07-937434da19a1",
+          "copper_edge_clearance|57172330|-19398520|a3750629-1535-4c15-951b-75ae01e02596|2f928636-6162-4ccc-8a07-937434da19a1",
           ""
         ]
       ],
