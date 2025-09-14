@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-04-06")
+		(date "2025-09-07")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -2697,12 +2697,6 @@
 		(uuid "a6de15aa-d6bc-4542-9f00-1cd7c8641025")
 	)
 	(junction
-		(at 33.02 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afd75c2b-39c9-45e9-b3dc-861169c841af")
-	)
-	(junction
 		(at 91.44 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2927,16 +2921,6 @@
 			(type default)
 		)
 		(uuid "1c15339a-6e22-4c6b-b83e-0ada92cbf80e")
-	)
-	(wire
-		(pts
-			(xy 33.02 82.55) (xy 33.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e11e311-f515-4800-bab6-987b82be6263")
 	)
 	(wire
 		(pts
@@ -3220,16 +3204,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 82.55) (xy 102.87 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b87ea23-437e-413a-9c10-8483958160b3")
-	)
-	(wire
-		(pts
 			(xy 48.26 171.45) (xy 48.26 176.53)
 		)
 		(stroke
@@ -3297,16 +3271,6 @@
 			(type default)
 		)
 		(uuid "63bc7974-c66c-4f15-9a98-4b4bde503227")
-	)
-	(wire
-		(pts
-			(xy 31.75 85.09) (xy 33.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bb66f3-501d-4410-b527-69b0a657a609")
 	)
 	(wire
 		(pts
@@ -3610,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 33.02 82.55)
+			(xy 31.75 82.55) (xy 102.87 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9096,7 +9060,7 @@
 	)
 	(hierarchical_label "RADIO_BOOT"
 		(shape output)
-		(at 31.75 85.09 180)
+		(at 31.75 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9126,17 +9090,6 @@
 			(justify left)
 		)
 		(uuid "886df65a-4990-469e-8e40-383c45b23af6")
-	)
-	(hierarchical_label "USB_ENABLE"
-		(shape output)
-		(at 31.75 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "898155b2-9e49-491a-b981-b0b712215a3a")
 	)
 	(hierarchical_label "HP_DET"
 		(shape input)
@@ -9270,33 +9223,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 179.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 179.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 179.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "-"
 			(at 179.07 58.42 0)
 			(effects
@@ -9373,33 +9299,6 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 166.37 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -9609,33 +9508,6 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 40.64 179.07 0)
 			(effects
 				(font
@@ -9916,33 +9788,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3d052c0e-1333-45c8-ae13-733ae8a1081f")
 		)
@@ -10144,34 +9989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 62.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 62.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C842640"
-			(at 62.23 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 62.23 181.61 0)
 			(effects
 				(font
@@ -10398,33 +10216,6 @@
 			)
 		)
 		(property "LCSC" "C3001172"
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 125.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -10780,33 +10571,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5b4c69fb-a46f-4c7d-a70c-94158c3ccf2d")
 		)
@@ -10877,33 +10641,6 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 81.28 138.43 0)
 			(effects
 				(font
@@ -11055,33 +10792,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 63.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 63.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 63.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3cca6ef5-479d-4bb1-942e-7643993e95ac")
 		)
@@ -11152,33 +10862,6 @@
 			)
 		)
 		(property "LCSC" "C1555"
-			(at 68.58 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 68.58 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 68.58 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -11398,33 +11081,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 151.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 151.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 151.13 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "14a89bdf-e6bd-44d6-a185-77f160705675")
 		)
@@ -11503,33 +11159,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8bc42554-4a54-4837-a5df-f666502e3c53")
 		)
@@ -11599,33 +11228,6 @@
 			)
 		)
 		(property "LCSC" "C318992"
-			(at 245.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 245.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 245.11 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 245.11 160.02 0)
 			(effects
 				(font
@@ -12180,33 +11782,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4136b0f3-1df9-4003-97cc-4ad6caf65da0")
 		)
@@ -12482,33 +12057,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 34.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 34.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 34.29 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "75ef4f3d-6bc7-425f-9f00-29a3ee62c02f")
 		)
@@ -12703,33 +12251,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 179.07 74.93 0)
 			(effects
 				(font
@@ -12954,33 +12475,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7b65adcb-f589-4c23-9b02-770099adca34")
 		)
@@ -13049,33 +12543,6 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 158.75 27.94 0)
 			(effects
 				(font
@@ -13162,33 +12629,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 66.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 66.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "412525da-7c2e-48fe-a124-e61f35670faa")
 		)
@@ -13258,33 +12698,6 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 88.9 176.53 0)
 			(effects
 				(font
@@ -13363,33 +12776,6 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 34.29 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 34.29 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 34.29 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 34.29 138.43 0)
 			(effects
 				(font

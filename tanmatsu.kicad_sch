@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Tanmatsu")
-		(date "2025-04-06")
+		(date "2025-09-07")
 		(rev "1.0")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2025 Paul Honig")
@@ -9335,6 +9335,12 @@
 		(uuid "e290c37b-2855-459c-8057-c6e8497c9935")
 	)
 	(junction
+		(at 137.16 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e331640f-09b4-4dfb-8bc9-46e2d53d14a3")
+	)
+	(junction
 		(at 264.16 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9581,16 +9587,6 @@
 			(type default)
 		)
 		(uuid "1230d958-061c-4f74-9bf1-eae17d45fb04")
-	)
-	(wire
-		(pts
-			(xy 139.7 109.22) (xy 142.24 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12576a9b-2f37-47dc-bd2e-004b0d554611")
 	)
 	(wire
 		(pts
@@ -9954,16 +9950,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 139.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "338cff65-4e9a-4c58-9e75-163ce43f2bd5")
-	)
-	(wire
-		(pts
 			(xy 260.35 95.25) (xy 260.35 92.71)
 		)
 		(stroke
@@ -9971,6 +9957,16 @@
 			(type solid)
 		)
 		(uuid "3524d7f3-5b9f-4c81-8590-cda9e4cb8c76")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365d8a2c-81aa-4082-a6b1-c60e9b673282")
 	)
 	(wire
 		(pts
@@ -10034,7 +10030,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 142.24 106.68)
+			(xy 139.7 106.68) (xy 142.24 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10061,6 +10057,16 @@
 			(type default)
 		)
 		(uuid "3da4b9ec-d001-4a77-aab9-d9a2ad3d299a")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da86101-fb6b-43d9-a766-031eb4385f16")
 	)
 	(wire
 		(pts
@@ -10124,7 +10130,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 120.65) (xy 142.24 120.65)
+			(xy 139.7 118.11) (xy 142.24 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10254,7 +10260,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 142.24 104.14)
+			(xy 100.33 104.14) (xy 137.16 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10334,16 +10340,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 142.24 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f5e685-0595-46ed-b0ba-3a70e8ac3a58")
-	)
-	(wire
-		(pts
 			(xy 262.89 58.42) (xy 262.89 80.01)
 		)
 		(stroke
@@ -10394,7 +10390,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 137.16 120.65)
+			(xy 139.7 106.68) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10641,6 +10637,16 @@
 			(type default)
 		)
 		(uuid "7bc2d6e5-653f-42f5-a055-b16877e688e6")
+	)
+	(wire
+		(pts
+			(xy 142.24 120.65) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd777f8-0f01-43a6-a6f2-b4d64c9e0c90")
 	)
 	(wire
 		(pts
@@ -14281,15 +14287,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2fd6583a-a881-40eb-9a60-e3214797bb43")
 		)
@@ -14430,15 +14427,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 46.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "96f18049-651f-4ac6-9471-fd2ed3421580")
 		)
@@ -14511,15 +14499,6 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 44.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 44.45 175.26 0)
 			(effects
 				(font
@@ -14943,7 +14922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14faa4b0-34cb-4a57-b881-c22ad3c47298")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -14994,7 +14973,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15205,7 +15184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "225031fd-46c1-4af9-923e-5256d9b79d73")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 234.95 55.88 0)
 			(effects
 				(font
@@ -15255,7 +15234,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15465,7 +15444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28a8e227-8b5b-4f7b-99de-1ea3fb35ba89")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 26.67 78.74 0)
 			(effects
 				(font
@@ -15515,7 +15494,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15589,7 +15568,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 121.92 191.77 0)
+		(at 88.9 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15597,8 +15576,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bde8f27-e833-4377-8335-d5375500aa89")
-		(property "Reference" "N7"
-			(at 125.73 190.8174 0)
+		(property "Reference" "N5"
+			(at 92.71 190.8174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +15586,7 @@
 			)
 		)
 		(property "Value" "Logo"
-			(at 125.73 193.3574 0)
+			(at 92.71 193.3574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15595,7 @@
 			)
 		)
 		(property "Footprint" "library:logo_nicolai"
-			(at 123.19 190.5 0)
+			(at 90.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15604,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 123.19 190.5 0)
+			(at 90.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +15613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 191.77 0)
+			(at 88.9 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +15622,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 121.92 191.77 0)
+			(at 88.9 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15633,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N7")
+					(reference "N5")
 					(unit 1)
 				)
 			)
@@ -16182,15 +16161,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 17.78 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "-90"
 			(at 17.78 149.86 0)
 			(effects
@@ -16433,15 +16403,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 29.21 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "660bcd78-e6e6-46f1-a541-d0ccabf64c4b")
 		)
@@ -16575,15 +16536,6 @@
 			)
 		)
 		(property "LCSC" "C5199872"
-			(at 53.34 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 53.34 21.59 0)
 			(effects
 				(font
@@ -16804,79 +16756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 72.39 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "6229bf95-a0a9-4a07-b5a1-7a17d1f362ef")
-		(property "Reference" "N4"
-			(at 76.2 190.8174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UKCA"
-			(at 76.2 193.3574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Symbol:UKCA-Logo_6x6mm_SilkScreen"
-			(at 73.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 72.39 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "tanmatsu"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mch2021-rescue:GND-power")
 		(at 73.66 33.02 270)
 		(unit 1)
@@ -17002,15 +16881,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 46.99 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "86285662-0f47-4095-a2dc-71bc0c44062f")
 		)
@@ -17108,7 +16978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e589611-6e85-4769-a7d9-c9e28d535174")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 51.308 51.816 0)
 			(effects
 				(font
@@ -17193,7 +17063,7 @@
 		(instances
 			(project ""
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17321,15 +17191,6 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 96.52 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 96.52 175.26 0)
 			(effects
 				(font
@@ -17488,8 +17349,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743dc1b5-d154-4a38-9895-f0f80841d4fe")
 		(property "Reference" "N1"
@@ -17557,7 +17418,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 88.9 191.77 0)
+		(at 55.88 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17565,8 +17426,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ac6a3f-e71e-42d5-a174-29bbdc3babce")
-		(property "Reference" "N5"
-			(at 92.71 190.8174 0)
+		(property "Reference" "N3"
+			(at 59.69 190.8174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,7 +17436,7 @@
 			)
 		)
 		(property "Value" "OSHW"
-			(at 92.71 193.3574 0)
+			(at 59.69 193.3574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17584,7 +17445,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen"
-			(at 90.17 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17454,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 90.17 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17463,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 191.77 0)
+			(at 55.88 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,16 +17472,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 88.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 88.9 191.77 0)
+			(at 55.88 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17483,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N5")
+					(reference "N3")
 					(unit 1)
 				)
 			)
@@ -17711,7 +17563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bf7f753-a06c-41f6-8b89-fae5c38c9b2b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -17761,7 +17613,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17893,15 +17745,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" ""
-			(at 156.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "4d2d9931-7250-419d-8a3a-958c491abe8d")
 		)
@@ -17981,15 +17824,6 @@
 			)
 		)
 		(property "LCSC" "C319103"
-			(at 273.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 273.05 63.5 0)
 			(effects
 				(font
@@ -18088,15 +17922,6 @@
 			)
 		)
 		(property "LCSC" "C2827693"
-			(at 173.99 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -18216,7 +18041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "863bbbd2-7ed7-4c96-90d8-b7f0fa061456")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 19.05 78.74 0)
 			(effects
 				(font
@@ -18266,7 +18091,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18413,7 +18238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f20d45-9091-4ecb-bb80-1fff0588f95c")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 96.1741 29.21 0)
 			(effects
 				(font
@@ -18528,7 +18353,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18587,15 +18412,6 @@
 			)
 		)
 		(property "LCSC" "C25879"
-			(at 132.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -18684,33 +18500,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1d60d13a-63a1-4b46-b58b-bbfc09e0831f")
 		)
@@ -18788,33 +18577,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "61aa39d0-4e9d-4f1c-bbb6-d7d4e93c5b72")
 		)
@@ -18836,7 +18598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90828501-c54e-4600-aba9-127b1902caad")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -18886,7 +18648,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18967,7 +18729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "922dc169-0844-4237-9e50-7fe15ae62bbc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 281.94 55.88 0)
 			(effects
 				(font
@@ -19017,7 +18779,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19080,33 +18842,6 @@
 			)
 		)
 		(property "LCSC" "C5180236"
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 36.83 149.86 0)
 			(effects
 				(font
@@ -19482,33 +19217,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 48.26 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "-90"
 			(at 48.26 111.76 0)
 			(effects
@@ -19607,33 +19315,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 62.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 62.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 62.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c217d10e-8499-454a-8591-b5f2806307e7")
 		)
@@ -19723,7 +19404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed24de9-4626-4585-a52a-3cc435886f61")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 62.23 31.75 0)
 			(effects
 				(font
@@ -19773,7 +19454,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19824,33 +19505,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 44.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 44.45 88.9 0)
 			(effects
 				(font
@@ -20081,15 +19735,6 @@
 			)
 		)
 		(property "LCSC" "C2936004"
-			(at 78.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_pricesFT Rotation Offset" "-90"
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -20368,33 +20013,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 88.9 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 88.9 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 88.9 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "410d6631-7264-4dff-8cc5-ebdb7859b72a")
 		)
@@ -20475,7 +20093,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 105.41 191.77 0)
+		(at 72.39 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20483,8 +20101,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e204af-cdd8-4c88-b980-2f3b53fcfdae")
-		(property "Reference" "N6"
-			(at 109.22 190.8174 0)
+		(property "Reference" "N4"
+			(at 76.2 190.8174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20493,7 +20111,7 @@
 			)
 		)
 		(property "Value" "Board"
-			(at 109.22 193.3574 0)
+			(at 76.2 193.3574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20502,7 +20120,7 @@
 			)
 		)
 		(property "Footprint" "design:board"
-			(at 106.68 190.5 0)
+			(at 73.66 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20511,7 +20129,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 106.68 190.5 0)
+			(at 73.66 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20520,7 +20138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 191.77 0)
+			(at 72.39 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20529,34 +20147,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 105.41 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 105.41 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 105.41 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 105.41 191.77 0)
+			(at 72.39 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20567,7 +20158,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N6")
+					(reference "N4")
 					(unit 1)
 				)
 			)
@@ -20997,33 +20588,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 257.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 257.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 257.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7c76a426-2d5c-49be-a00e-53e2f17683f4")
 		)
@@ -21306,33 +20870,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "81d96eac-ce4c-4d05-8c51-a9d206c04e04")
 		)
@@ -21479,33 +21016,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 21.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 21.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 21.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d7480cc5-6d34-46d7-b9a5-da865a929838")
 		)
@@ -21570,33 +21080,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "-"
 			(at 66.04 138.43 0)
 			(effects
@@ -21616,79 +21099,6 @@
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Housing")
-		(at 55.88 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "dbdc6ef6-2ba9-4635-88d7-934f960b3a95")
-		(property "Reference" "N3"
-			(at 59.69 190.8174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FCC"
-			(at 59.69 193.3574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Symbol:FCC-Logo_7.3x6mm_SilkScreen"
-			(at 57.15 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "-"
-			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "tanmatsu"
-				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N3")
 					(unit 1)
 				)
 			)
@@ -21885,33 +21295,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a58629c5-0efb-4aae-b224-eae49badc61d")
 		)
@@ -22007,7 +21390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8af1021-422f-459b-8b53-50f3d9a79a15")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -22057,7 +21440,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22191,33 +21574,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 77.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "68929515-b7fb-4445-b298-d96f4a4060a4")
 		)
@@ -22296,33 +21652,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8c2c96f4-da72-4624-a383-f609b67e1cbc")
 		)
@@ -22353,7 +21682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecba4616-07f7-433a-8bc2-a671c971c505")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 72.39 64.77 0)
 			(effects
 				(font
@@ -22403,7 +21732,7 @@
 		(instances
 			(project "why2025"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22539,33 +21868,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 81.28 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e3e32d51-96a4-459c-a785-ff54af9a93b0")
 		)
@@ -22587,7 +21889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33a902e-1596-4000-b350-2ba160c5cd1a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -22638,7 +21940,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -22701,33 +22003,6 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 73.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 73.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 73.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 73.66 175.26 0)
 			(effects
 				(font
@@ -22986,33 +22261,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6d3f38b3-f47b-4bac-8ca9-51ae0d19047b")
 		)
@@ -23030,7 +22278,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 138.43 191.77 0)
+		(at 105.41 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23038,8 +22286,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff555a76-1edb-40eb-b9d0-36fb50490680")
-		(property "Reference" "N8"
-			(at 142.24 190.8174 0)
+		(property "Reference" "N6"
+			(at 109.22 190.8174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,7 +22296,7 @@
 			)
 		)
 		(property "Value" "WEEE"
-			(at 142.24 193.3574 0)
+			(at 109.22 193.3574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23057,7 +22305,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:WEEE-Logo_4.2x6mm_SilkScreen"
-			(at 139.7 190.5 0)
+			(at 106.68 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23066,7 +22314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 190.5 0)
+			(at 106.68 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23075,7 +22323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 191.77 0)
+			(at 105.41 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23084,7 +22332,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 138.43 191.77 0)
+			(at 105.41 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +22343,7 @@
 		(instances
 			(project "tanmatsu"
 				(path "/6a31734e-65de-48f3-8156-2b24b665b183"
-					(reference "N8")
+					(reference "N6")
 					(unit 1)
 				)
 			)
@@ -23158,33 +22406,6 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 105.41 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
 			(at 105.41 175.26 0)
 			(effects
 				(font
@@ -23270,7 +22491,7 @@
 	)
 	(sheet
 		(at 142.24 73.66)
-		(size 26.67 38.1)
+		(size 26.67 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23294,7 +22515,7 @@
 			)
 		)
 		(property "Sheetfile" "coprocessor.kicad_sch"
-			(at 142.24 112.3446 0)
+			(at 142.24 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23453,16 +22674,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB_ENABLE" output
-			(at 142.24 104.14 180)
-			(uuid "8e3065b6-fe79-455f-9416-e224355869d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LED_DATA" output
 			(at 142.24 82.55 180)
 			(uuid "37d156db-4608-434f-9233-072b3d30efda")
@@ -23484,7 +22695,7 @@
 			)
 		)
 		(pin "RADIO_BOOT" output
-			(at 142.24 109.22 180)
+			(at 142.24 104.14 180)
 			(uuid "3e2c3122-dc3b-4453-9b52-4d9e534bcb9c")
 			(effects
 				(font
@@ -24636,7 +23847,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 142.24 120.65 180)
+			(at 142.24 118.11 180)
 			(uuid "3f3e9f57-2e1c-4292-8644-77524dc06488")
 			(effects
 				(font
@@ -24646,7 +23857,7 @@
 			)
 		)
 		(pin "BOOT" input
-			(at 142.24 118.11 180)
+			(at 142.24 120.65 180)
 			(uuid "eb64ccd2-3323-4af4-b95d-4375230c92b8")
 			(effects
 				(font
