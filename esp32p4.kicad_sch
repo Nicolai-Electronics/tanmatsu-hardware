@@ -13332,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2210252030_TKD-SX32Y040000BC1T001_C337678.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2901712.html"
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -13341,7 +13341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SX32Y040000MF1T-SU"
+		(property "Description" "SCTF SX3B40.000F1210F30"
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -13350,7 +13350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C337678"
+		(property "LCSC" "C2901712"
 			(at 120.65 35.56 90)
 			(effects
 				(font
