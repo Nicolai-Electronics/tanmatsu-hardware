@@ -7782,7 +7782,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8635df5-674c-417f-a63b-11864e96e2d8")
 		(property "Reference" "U23"
