@@ -22122,7 +22122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/9007-MMBT2222A1P/C8512"
 			(at 124.46 180.34 0)
 			(effects
 				(font
@@ -22140,7 +22140,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C8512"
 			(at 124.46 180.34 0)
 			(effects
 				(font
