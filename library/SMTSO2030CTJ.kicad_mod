@@ -1,35 +1,293 @@
-(footprint "SMTSO2030CTJ" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp d38b07ab-7049-4304-ade0-6eca01c0d2bb)
-  )
-  (fp_text value "SMTSO2030CTJ" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5905dd35-f1ec-4936-8f68-69ede46ec491)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 764ad8ae-6bb0-4255-84ab-c5cc37f6a53d)
-  )
-  (pad "" smd oval (at -2.100112 -1.2125 150) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp 91e5e444-ef77-4238-9769-c0501a9b0b41))
-  (pad "" smd oval (at -2.100112 1.2125 210) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp 2637c785-355e-4d9b-a6c6-0d17aadbfcb8))
-  (pad "" smd oval (at 0 -2.425 90) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp 17612cd8-9470-467b-bf81-6fcb0ceaf4e9))
-  (pad "" smd circle (at 0 0) (size 3.75 3.75) (layers "B.Mask") (tstamp 963fdeb4-d32b-4830-8846-e9e6401cb867))
-  (pad "" smd oval (at 0 2.425 270) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp bf88bb26-1612-49f0-86db-d33c62e321f6))
-  (pad "" smd oval (at 2.100112 -1.2125 30) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp 351536a3-d083-496c-864a-17460122578c))
-  (pad "" smd oval (at 2.100112 1.2125 330) (size 1.235 2.2) (layers "F.Paste")
-    (thermal_bridge_angle 45) (tstamp 03756c61-c995-44ea-aa6a-9dc3f3c8ef8b))
-  (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 3.73) (layers "*.Cu" "F.Mask") (tstamp 67903898-99fa-42ef-b1c9-c81aa78c6edb))
-  (model "${KIPRJMOD}/3d/SMTSO2030.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMTSO2030CTJ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3386f145-8831-4611-b143-9bcdc8b0399b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMTSO2030CTJ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "577275a5-b604-4328-b22a-7f0a070cc1bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "043cb086-de5c-479e-b744-2129777a73a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4ae4d38-bdd1-4e68-b204-c1ac78c6571d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Field4" "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fe953a8-8736-4035-96c7-316d16b51eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" smd oval
+		(at -2.100112 -1.2125 150)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "880d821f-d446-4aa5-ae34-c43b2f839e23")
+	)
+	(pad "" smd oval
+		(at -2.100112 1.2125 210)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d129a811-5682-426b-a397-d24123105d6f")
+	)
+	(pad "" smd oval
+		(at 0 -2.425 90)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e83d1830-57bf-48cd-9e79-2d51f2f4114a")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 3.75 3.75)
+		(layers "B.Mask")
+		(uuid "450d07ed-d32e-445e-857b-98e0f9b36551")
+	)
+	(pad "" smd oval
+		(at 0 2.425 270)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6d0a8607-6a23-43c2-b863-a211b35e4f42")
+	)
+	(pad "" smd oval
+		(at 2.100112 -1.2125 30)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "83423d82-402e-4c5b-9e1e-e408fa578ac2")
+	)
+	(pad "" smd oval
+		(at 2.100112 1.2125 330)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "92059d55-ec7f-46ab-af61-b69fe8957bb3")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 3.73)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "84d9ec50-d8fb-4cfe-88b1-90bdd431302c")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+			)
+			(layer "In2.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In3.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In4.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In5.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In6.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In7.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In8.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In9.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In10.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In11.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In12.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In13.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In14.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In15.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In16.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In17.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In18.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In19.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In20.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In21.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In22.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In23.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In24.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In25.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In26.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In27.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In28.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In29.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "In30.Cu"
+				(shape circle)
+				(size 6.2 6.2)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 4 4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/SMTSO2030.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

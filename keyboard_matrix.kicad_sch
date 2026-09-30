@@ -7,7 +7,7 @@
 	(title_block
 		(title "Tanmatsu")
 		(date "2026-09-30")
-		(rev "8")
+		(rev "9")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2026 Paul Honig")
 		(comment 2 "Copyright 2026 Nicolai Electronics")
@@ -14626,7 +14626,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "925d87a6-1a80-43d3-8199-86ddccfda935")
 		(property "Reference" "U13"

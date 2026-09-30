@@ -7,7 +7,7 @@
 	(title_block
 		(title "Tanmatsu")
 		(date "2026-09-30")
-		(rev "8")
+		(rev "9")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2026 Paul Honig")
 		(comment 2 "Copyright 2026 Nicolai Electronics")
@@ -4180,7 +4180,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0283beef-0569-4718-8efe-d0483e635617")
 		(property "Reference" "TP19"
@@ -4425,7 +4425,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0e5d775b-93d0-47ba-88dd-08f7e8d1b28a")
 		(property "Reference" "TP14"
@@ -6639,7 +6639,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8760d669-1fdb-4965-8ca7-14e644b4e8c9")
 		(property "Reference" "TP16"
@@ -6819,7 +6819,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8df2b5db-f93d-44cd-b6a5-b82708fd3b43")
 		(property "Reference" "TP17"
@@ -7257,7 +7257,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9aa3fab4-ad0b-46b8-bd62-c5d516e8509e")
 		(property "Reference" "TP15"
@@ -7764,7 +7764,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b6cd8d76-1c9d-4058-9b90-d9e6f93ebb85")
 		(property "Reference" "TP18"
@@ -8436,7 +8436,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c666190d-1847-419f-92dc-36503901d001")
 		(property "Reference" "JP3"
@@ -8773,7 +8773,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "daee917f-b3c9-45a3-8fd8-e6b761a18d5f")
 		(property "Reference" "TP13"
@@ -9707,7 +9707,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fb08fc89-d0a7-4054-9f15-421b24a4e0ed")
 		(property "Reference" "TP20"

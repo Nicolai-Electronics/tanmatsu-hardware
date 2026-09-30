@@ -78,11 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|57172330|-13800360|a3750629-1535-4c15-951b-75ae01e02596|380ceb76-7013-4770-8686-ddcef7a3ad78",
+          "copper_edge_clearance|57172330|-13800360|713c8034-4d6f-49de-a168-ac662592e783|380ceb76-7013-4770-8686-ddcef7a3ad78",
           ""
         ],
         [
-          "copper_edge_clearance|57172330|-19398520|a3750629-1535-4c15-951b-75ae01e02596|2f928636-6162-4ccc-8a07-937434da19a1",
+          "copper_edge_clearance|57172330|-19398520|713c8034-4d6f-49de-a168-ac662592e783|2f928636-6162-4ccc-8a07-937434da19a1",
           ""
         ]
       ],
@@ -287,7 +287,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "8"
+      "sch_revision": "9"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -740,7 +740,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -820,9 +820,21 @@
           "label": "FT Position Offset",
           "name": "FT Position Offset",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "TP",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -878,7 +890,7 @@
         "uuid": "6a31734e-65de-48f3-8156-2b24b665b183"
       }
     ],
-    "used_designators": "SW1-3,Q1-6,R1-93,TP1-21,TP23,JP1-3,Y1-3,#PWR1-314,C1-89,D1-88,U1-34,N1-6,#FLG1-5,H1-11,CN1,J1-16,L1-5",
+    "used_designators": "Q1-6,L1-5,SW1-3,N1-6,D1-88,U1-34,TP1-21,TP23,JP1-3,R1-93,#PWR1-314,Y1-3,#FLG1-5,H1-11,J1-16,CN1,C1-89",
     "variants": []
   },
   "sheets": [

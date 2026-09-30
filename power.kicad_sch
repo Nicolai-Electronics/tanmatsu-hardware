@@ -7,7 +7,7 @@
 	(title_block
 		(title "Tanmatsu")
 		(date "2026-09-30")
-		(rev "8")
+		(rev "9")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2026 Paul Honig")
 		(comment 2 "Copyright 2026 Nicolai Electronics")
@@ -10696,7 +10696,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "24c43118-c3d8-4a81-acdb-512c4358011b")
 		(property "Reference" "TP9"
@@ -11373,7 +11373,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "433a38c3-b437-41aa-ac69-f7cd133cc60d")
 		(property "Reference" "TP8"
@@ -12763,7 +12763,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5be61576-dbb1-476e-afa0-bcd53ddc28e3")
 		(property "Reference" "TP10"
@@ -13330,7 +13330,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "65132442-ee1c-46c1-911a-6c9a6b9ae057")
 		(property "Reference" "JP2"
@@ -14004,7 +14004,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7580a2ca-76f4-4e35-91dc-aa50b07908d9")
 		(property "Reference" "TP7"
@@ -15018,7 +15018,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8eff68e6-c064-4baa-a484-4848718bcd44")
 		(property "Reference" "TP5"
@@ -17247,7 +17247,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bbe5a527-16c1-4e96-a58b-078f9dad4c6d")
 		(property "Reference" "TP11"
@@ -19725,7 +19725,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f8ac83d5-4dd3-4dab-a253-1a0e228c5314")
 		(property "Reference" "TP6"
@@ -19814,7 +19814,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fa547c0c-923b-4416-8b45-525700f94001")
 		(property "Reference" "TP12"

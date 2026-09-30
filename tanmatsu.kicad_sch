@@ -7,7 +7,7 @@
 	(title_block
 		(title "Tanmatsu")
 		(date "2026-09-30")
-		(rev "8")
+		(rev "9")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2026 Paul Honig")
 		(comment 2 "Copyright 2026 Nicolai Electronics")
@@ -9346,23 +9346,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "M2 holes for expansion boards & case"
+	(text "M2 holes for attaching back cover"
 		(exclude_from_sim no)
-		(at 74.676 169.926 0)
+		(at 56.642 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "0cb45da7-22f4-447d-8e4f-6150b83e3950")
 	)
-	(text "1.6mm holes for attaching frontpanel"
+	(text "M2 holes for attaching frontpanel"
 		(exclude_from_sim no)
-		(at 33.02 169.926 0)
+		(at 19.558 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "768e0f2b-83ea-4247-8333-49c98c116d25")
 	)
@@ -14723,7 +14725,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14751,7 +14753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +14764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14773,7 +14775,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14784,7 +14786,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 66.04 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14815,7 +14817,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "006fec37-7c4d-4eb1-a055-934e502a214c")
 		(property "Reference" "TP1"
@@ -14983,7 +14985,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15011,7 +15013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:mountinghole_1.6mm"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +15024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15033,7 +15035,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15044,7 +15046,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 44.45 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16314,7 +16316,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bde8f27-e833-4377-8335-d5375500aa89")
@@ -17223,7 +17225,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -17251,7 +17253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:mountinghole_1.6mm"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17262,7 +17264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17273,7 +17275,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17284,7 +17286,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -17807,7 +17809,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1c87a8-83c6-4c27-93e2-86bc061593e5")
@@ -18084,7 +18086,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18112,7 +18114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18123,7 +18125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18134,7 +18136,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18145,7 +18147,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18332,7 +18334,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743dc1b5-d154-4a38-9895-f0f80841d4fe")
@@ -18419,7 +18421,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ac6a3f-e71e-42d5-a174-29bbdc3babce")
@@ -19064,7 +19066,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "81e882cd-8954-48e5-bc81-8d7bd50be071")
 		(property "Reference" "TP2"
@@ -19611,7 +19613,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19639,7 +19641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:mountinghole_1.6mm"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19650,7 +19652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19661,7 +19663,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19672,7 +19674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 36.83 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19702,7 +19704,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19730,7 +19732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19741,7 +19743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19752,7 +19754,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -19763,7 +19765,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 58.42 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21368,7 +21370,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -21396,7 +21398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 88.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21407,7 +21409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 88.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21418,7 +21420,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 88.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21429,7 +21431,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 88.9 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21460,7 +21462,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e204af-cdd8-4c88-b980-2f3b53fcfdae")
@@ -22463,7 +22465,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -22491,7 +22493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:mountinghole_1.6mm"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 21.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22502,7 +22504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 21.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22513,7 +22515,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 21.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22524,7 +22526,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 21.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22555,7 +22557,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dbbefd28-7683-4384-a89d-448706588478")
 		(property "Reference" "JP1"
@@ -23462,7 +23464,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23490,7 +23492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 81.28 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23501,7 +23503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 81.28 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23512,7 +23514,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 81.28 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23523,7 +23525,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 81.28 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23631,7 +23633,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23659,7 +23661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 73.66 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23670,7 +23672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 73.66 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23681,7 +23683,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 73.66 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23692,7 +23694,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 73.66 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23926,7 +23928,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff555a76-1edb-40eb-b9d0-36fb50490680")
@@ -24012,7 +24014,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -24040,7 +24042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "library:SMTSO2030CTJ"
 			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24051,7 +24053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2915626.html"
 			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24062,7 +24064,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24073,7 +24075,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C2915626"
 			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Tanmatsu")
 		(date "2026-09-30")
-		(rev "8")
+		(rev "9")
 		(company "Nicolai Electronics")
 		(comment 1 "Copyright 2026 Paul Honig")
 		(comment 2 "Copyright 2026 Nicolai Electronics")
@@ -2597,16 +2597,6 @@
 			)
 		)
 		(uuid "c384138e-1973-453b-bee2-0587272d9ba6")
-	)
-	(text "Optional LED\n(No GPIO should be left unused!)"
-		(exclude_from_sim no)
-		(at 151.13 174.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dfef43c1-4512-44c7-a050-8a03a75a8032")
 	)
 	(text_box "Pull low for UART DL"
 		(exclude_from_sim no)
@@ -8654,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/EverlightElec-IR968_8P_X1_X4XBY/C17179483"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TONYU-DYWH_IR9688C/C47416529"
 			(at 158.75 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8676,7 +8666,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17179483"
+		(property "LCSC" "C47416529"
 			(at 158.75 175.26 0)
 			(hide yes)
 			(show_name no)
